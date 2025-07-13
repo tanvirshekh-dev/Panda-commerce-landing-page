@@ -64,7 +64,7 @@
 
 
 /* Shared styles */
-.max-auto{
+.max-width{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -100,4 +100,43 @@
     text-decoration: none;
     color: #707070;
     font-size: 16px;
+}
+/* hero part styles */
+.hero-container{
+    background-color: #FEEAE9;
+    border-radius: 20px;
+    align-items: center;
+}
+.hero-content{
+    padding: 60px 45px;
+}
+.hero-title{
+    font-size: 50px;
+    color: #1F1F1F;
+}
+.hero-description{
+    font-size: 16px;
+    color: #4E4E4E;
+    padding: 8px 0px;
+    line-height: 28px;
+    width: 450px;
+}
+.hero-price-tag{
+    font-size: 40px;
+    color: #FF136F;
+    padding: 10px 0px;
+}
+.hero-btn{
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #FF136F;
+    border: none;
+    padding: 15px 28px;
+    border-radius: 5px;
+}
+.hero-img img{
+    width: 400px;
+}
+.hero-img{
+    padding: 30px 60px;
 }
