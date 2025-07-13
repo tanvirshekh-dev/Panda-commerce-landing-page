@@ -256,3 +256,51 @@
   font-size: 24px;
   padding: 16px;
 }
+/* backpack styles  */
+.backpack-parent-container {
+  background-color: rgb(245, 245, 245);
+}
+.backpack-heading {
+  justify-content: space-between;
+  padding: 46px 0px 24px 0px;
+}
+.backpack-title {
+  color: #1f1f1f;
+  font-size: 36px;
+}
+.backpack-sub-title {
+  font-size: 20px;
+  color: #ff9d00;
+  text-decoration: none;
+}
+.backpack-container{
+    gap: 24px;
+
+}
+.backpack-items {
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.backpack-items img {
+  width: 330px;
+  padding: 24px 12px;
+}
+.backpack-cart-title {
+  font-size: 24px;
+  color: #1f1f1f;
+  padding: 22px 0px 16px 0px;
+}
+.backpack-cart-description {
+  font-size: 16px;
+  color: #4e4e4e;
+}
+.backpack-cart-price {
+  color: #000000;
+  font-size: 24px;
+  padding: 16px;
+}
